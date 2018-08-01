@@ -9,6 +9,6 @@ mainClassName = "com.rollbar.log4j2.example.Application"
 
 dependencies {
     compile project(":rollbar-log4j2")
-
+//    compile('com.rollbar:rollbar-java:1.2.1')
     compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.11.0'
 }
